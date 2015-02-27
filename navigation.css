@@ -1,0 +1,77 @@
+.nav
+{
+	display: inline-block;
+    float:left;
+	height:200px;
+	width:20%;
+	overflow: hidden;
+
+	-webkit-transition: width 1s;
+	   -moz-transition: width 1s;
+            transition: width 1s;
+}
+.nav.home      
+{ 
+	background-color: #2d89ef;
+}
+.nav.about
+{
+    background-color: #00a300; 
+}
+.nav.portfolio
+{ 
+	background-color: #e3a21a; 
+}
+.nav.services
+{ 
+	background-color: #9f00a7; 
+}
+.nav.contact
+{ 
+	background-color: #ee1111; 
+}
+
+.nav a
+{
+	color:#FFF;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	height:100%;
+	display:block;
+   
+}
+
+.nav span
+{
+    display:block;
+    position:relative;
+    top: 100%;
+    text-align: center;
+
+    -webkit-transition: top 1s;
+       -moz-transition: top 1s;
+            transition: top 1s;
+}
+
+.menu:hover .nav  
+{ 
+	width:10%;
+	
+	
+	
+}
+
+.menu .nav:hover   
+{ 
+	width: 60%;
+	
+	
+}
+/*.image:hover ~ span{
+	display: block;
+	visibility: visible;
+}*/
+.nav:hover span{
+	top: 25%;
+}

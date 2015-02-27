@@ -1,0 +1,233 @@
+.container{
+	font-family: 'Roboto', sans-serif;
+	height:1200px;
+	width: 850px;
+	margin: 0 auto;
+	padding-left: 90px;
+}
+
+.grid1{
+
+	display: inline-block;
+	
+	margin: 0 1.5%;
+	width: 30%;
+	margin-left: 10px;
+	
+}
+.grid2{
+
+	display: inline-block;
+	
+	margin: 0.5% 1.5%;
+	width: 30%;
+	margin-left: 10px;
+	
+}
+.grid3{
+
+	display: inline-block;
+	
+	margin: 0.5% 1.5%;
+	width: 30%;
+	margin-left: 10px;
+	
+}
+.grid4{
+
+	display: inline-block;
+	
+	margin: 0.5% 1.5%;
+	width: 30%;
+	margin-left: 10px;
+	
+}
+.heading{
+	font-weight: 700;
+	text-align: center;
+}
+.jan,.feb,.mar,
+.apr,.may,.june,
+.july,.aug,.sep,
+.oct,.nov,.dec{
+	border:1px solid #ccc;
+	border-radius: 15px;
+	
+	height: 240px;
+	width: 255px;
+	float: left;
+	margin: 3px 5px 5px 5px;
+	
+	
+
+}
+.month1,.month2,.month12{
+	border-bottom: 1px solid #ccc;
+	background: #33ccff;
+	color: #fff;
+	text-align: center;
+	height: 25px;
+	width: 256px;
+	
+	margin:0;
+
+}
+.month3,.month4,.month5{
+	border-bottom: 1px solid #ccc;
+	background: #66cc33;
+	color: #fff;
+	text-align: center;
+	height: 25px;
+	width: 256px;
+	
+	margin:0;
+
+}
+.month6,.month7,.month8{
+	border-bottom: 1px solid #ccc;
+	background: #ff6633;
+	color: #fff;
+	text-align: center;
+	height: 25px;
+	width: 256px;
+	
+	margin:0;
+
+}
+.month9,.month10,.month11{
+	border-bottom: 1px solid #ccc;
+	background: #ffcc33;
+	color: #fff;
+	text-align: center;
+	height: 25px;
+	width: 256px;
+	
+	margin:0;
+
+}
+.days1,.days2,.days12{
+	background: #33ccff;
+	color: #fff;
+	height: 35px;
+	width: 256px;
+	margin:0;
+	padding: 10 8px 10 0px;
+	line-height: 2.3;
+	
+
+}
+.days3,.days4,.days5{
+
+background: #66cc33;
+	color: #fff;
+	height: 35px;
+	width: 256px;
+	margin:0;
+    padding: 10 8px 10 0px;
+line-height: 2.3;
+}
+.days6,.days7,.days8{
+
+background: #ff6633;
+	color: #fff;
+	height: 35px;
+	width: 256px;
+	margin:0;
+	padding: 10 8px 10 0px;
+line-height: 2.3;
+}
+.days9,.days10,.days11{
+
+background: #ffcc33;
+	color: #fff;
+	height: 35px;
+	width: 256px;
+	margin:0;
+	padding: 10 8px 10 0px;
+line-height: 2.3;
+}
+
+
+p{
+	float: left;
+	height: 25px;
+	width: 30px;
+	margin:0;
+	text-align: center;
+	line-height: 2.3;
+	font-weight: 300;
+	font-size: 1em;
+	word-spacing: 5em;
+}
+.dates1,.dates2,.dates12{
+
+	line-height: 2.3;
+	padding: 10px 8px 0px 10px;
+	float: left;
+	
+}
+.dates3,.dates4,.dates5{
+	line-height: 2.3;
+	padding: 10px 8px 0px 10px;
+    float: left;
+}
+.dates6,.dates7,.dates8{
+	line-height: 2.3;
+	padding: 10px 8px 0px 10px;
+    float: left;
+}
+.dates9,.dates10,.dates11{
+	line-height: 2.3;
+	padding: 10px 8px 0px 10px;
+    float: left;
+}
+
+
+.gray{
+	color: #ccc;
+	line-height: 2.3;
+	font-size: 1em;
+}
+.gray:hover{
+	border: solid;
+	border-radius: 50%;
+	/*height: 25px;
+	width: 25px;*/
+	color: white;
+	background-color: #ccc;
+	font-weight: 300;
+	font-size: 1.6em;
+	line-height: 1.4;
+}
+.red{
+	color: red;
+	line-height: 2.3;
+	font-size: 1em;
+}
+.red:hover{
+	border:1px solid;
+	border-radius: 50%;
+	/*height: 25px;
+	width: 25px;*/
+	color: white;
+	background-color: #ffcccc;
+	font-weight: 300;
+	font-size: 1.6em;
+	line-height: 1.4;
+}
+.black{
+   line-height: 2.3;
+	font-size: 1em;
+
+}
+.black:hover{
+	border:1px solid;
+	border-radius: 50%;
+	/*height: 25px;
+	width: 25px;*/
+	color: white;
+	background-color: #ffcccc;
+	font-weight: 300;
+	font-size: 1.6em;
+    line-height: 1.4;
+}

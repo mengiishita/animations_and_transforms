@@ -1,0 +1,104 @@
+body{
+	background-color: #000;
+}
+
+.face{
+	height: 300px;
+	width: 250px;
+	background-color: #ffb6c1;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	border-radius: 50%;
+	border-bottom-left-radius:60%;
+	border-bottom-right-radius: 60%;
+}
+.eye1{
+
+	top: 20%;
+	left: 10%;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	position: absolute;
+	background-image: -webkit-radial-gradient( rgba(255,255,255,.8) 0%, rgba(255,255,255, 0) 80%, rgba(0,0,0, 0) 80%, rgba(0,0,0,.33) 100% );
+	background-image: radial-gradient( rgba(255,255,255,.8) 0%, rgba(255,255,255, 0) 80%, rgba(0,0,0, 0) 80%, rgba(0,0,0,.33) 100% );
+	/*background-color: #fff;
+	padding: 5px;
+	
+	border:2px solid #dcaeae;*/
+	
+}
+.eye2{
+
+	top:20%;
+	left: 54%;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	position: absolute;
+	/*background-color: #fff;
+	border:12px solid #eeb6c1;*/
+	background-image: -webkit-radial-gradient( rgba(255,255,255,.8) 0%, rgba(255,255,255, 0) 80%, rgba(0,0,0, 0) 80%, rgba(0,0,0,.33) 100% );
+	background-image: radial-gradient( rgba(255,255,255,.8) 0%, rgba(255,255,255, 0) 80%, rgba(0,0,0, 0) 80%, rgba(0,0,0,.33) 100% );
+	
+
+}
+
+/*.eye{
+   
+   background-image: -webkit-radial-gradient( rgb(0,0,0) 12%, rgb(177,157,59) 22%, rgb(125,66,54) 40%, rgb(232,232,232) 50%);
+	
+}*/
+
+.mouth{
+	top:75%;
+	left: 28%;
+
+	height: 5px;
+	width: 100px;
+	background-color: #803030;
+	position: absolute;
+	border-radius: 35%;
+	border:5px solid #ff69b4;
+
+}
+
+.eyeball1{
+
+ top: 15%;
+ left: 15%;
+ position: absolute;
+ border-radius: 50%;
+ width: 60px;
+ height: 60px;
+ background-image: -webkit-radial-gradient( rgb(0,0,0) 12%, rgb(177,157,59) 22%, rgb(125,66,54) 40%, rgb(232,232,232) 50%);
+ background-image: radial-gradient( rgb(0,0,0) 12%, rgb(177,157,59) 22%, rgb(125,66,54) 40%, rgb(232,232,232) 50%);
+
+
+
+}
+
+.eyeball2{
+
+top: 15%;
+ left: 15%;
+ position: absolute;
+ border-radius: 50%;
+ width: 60px;
+ height: 60px;
+ background-image: -webkit-radial-gradient( rgb(0,0,0) 12%, rgb(177,157,59) 22%, rgb(125,66,54) 40%, rgb(232,232,232) 50%);
+ background-image: radial-gradient( rgb(0,0,0) 12%, rgb(177,157,59) 22%, rgb(125,66,54) 40%, rgb(232,232,232) 50%);
+
+}
+
+.nose{
+
+	top: 50%;
+	left: 40%;
+	position: absolute;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: #c03030;
+}
